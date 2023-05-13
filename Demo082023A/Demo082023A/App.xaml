@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo082023A.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Base Style" TargetType="Label">
+                <Setter Property="TextColor" Value="White">
+                </Setter>
+            </Style>
+            <Style x:Key="lblRedStyle" TargetType="Label" BasedOn="{StaticResource Base Style}">
+                <Setter Property="BackgroundColor" Value="Red"/>
+            </Style>
+            <Style x:Key="lblBlueStyle" TargetType="Label" BasedOn="{StaticResource Base Style}">
+                <Setter Property="BackgroundColor" Value="Blue"/>
+            </Style>
+            <!--<Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>-->
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
